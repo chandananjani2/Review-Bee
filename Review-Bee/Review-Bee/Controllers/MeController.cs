@@ -17,6 +17,7 @@ namespace Review_Bee.Controllers
     [Authorize]
     public class MeController : ApiController
     {
+        // Some additional changes
         private ApplicationUserManager _userManager;
 
         public MeController()

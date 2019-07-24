@@ -15,6 +15,7 @@ namespace Review_Bee.Controllers
     [Authorize]
     public class AccountController : Controller
     {
+        // Some changes
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 

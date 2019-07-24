@@ -13,6 +13,7 @@ namespace Review_Bee.Controllers
     [Authorize]
     public class ManageController : Controller
     {
+        // Some more changes
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
