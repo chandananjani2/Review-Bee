@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 namespace Review_BeeCore
 {
     public class Program
-    {
+    { // Some change
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
